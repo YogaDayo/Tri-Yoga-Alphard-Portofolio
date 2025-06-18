@@ -6,8 +6,8 @@
   font-family: "Poppins", sans-serif;
 }
 body {
-  background-image: url("https://img.freepik.com/free-vector/creative-geometric-design-space_53876-89781.jpg?ga=GA1.1.204480549.1745130665&semt=ais_hybrid&w=740");
-  position: sticky;
+  /* background-image: url("https://img.freepik.com/free-vector/memphis-background-vector-with-multicolor_53876-126692.jpg?ga=GA1.1.204480549.1745130665&semt=ais_hybrid&w=740"); */
+  background-size: cover;
 }
 
 /* Home */
@@ -114,12 +114,14 @@ section main h1 {
 /* About */
 .about {
   display: flex;
-  margin: 70px 150px 500px 150px;
+  margin: 70px 150px 400px 150px;
   gap: 50px;
 }
 
 .about img {
-  border-radius: 50% 50% 900px 100px;
+  border-radius: 50%;
+  outline: 5px solid rgb(211, 211, 211);
+  box-shadow: 10px 10px 10px 10px rgba(211, 211, 211, 0.295);
   width: 300px;
 }
 .about .text {
@@ -139,6 +141,26 @@ section main h1 {
   align-items: center;
 }
 .experience img {
+  outline: 5px solid rgb(211, 211, 211);
+  box-shadow: 10px 10px 10px 10px rgba(211, 211, 211, 0.295);
   width: 250px;
   border-radius: 55px 150px 70px 150px;
 }
+
+/* abotu achievment */
+.achievment {
+  display: flex;
+  margin: 400px 150px 500px 150px;
+  gap: 100px;
+}
+
+.achievment img {
+  border-radius: 55px 150px 70px 150px;
+  outline: 5px solid rgb(211, 211, 211);
+  box-shadow: 10px 10px 10px 10px rgba(211, 211, 211, 0.295);
+  width: 300px;
+}
+.achievment .text {
+  margin-top: 50px;
+}
+/* ####### */
